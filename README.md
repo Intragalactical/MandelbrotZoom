@@ -6,7 +6,7 @@ https://user-images.githubusercontent.com/100740726/165801737-86cfc958-9821-4de3
 
 ## How do I use this program?
 
-Open up the .exe, and fiddle around with the settings until things start looking good. **The default settings should work for a maximized window on a 1080p monitor.**
+Open up the .exe, and fiddle around with the settings until things start looking good. **The default settings should work for a maximized window on a 1080p monitor.** Please be aware that because the UI has been done in Windows Forms, it isn't display aware, and I can't be bothered to fix it. This means that if you move the window to another monitor, the program might not work properly (e.g. Mandelbrot set isn't centered, and such).
 
 ## Why do my graphics drivers crash when zooming?
 
