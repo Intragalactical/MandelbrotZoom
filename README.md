@@ -2,7 +2,7 @@
 
 With MandelbrotZoom, you can zoom into the Mandelbrot set. Uses DX12 Compute Shaders.
 
-https://user-images.githubusercontent.com/100740726/165799833-c82be831-2a59-49a6-a4d2-4d583a258d9d.mp4
+https://user-images.githubusercontent.com/100740726/165801737-86cfc958-9821-4de3-9590-e11cbc81f389.mp4
 
 ## Why do my graphics drivers crash when zooming?
 
