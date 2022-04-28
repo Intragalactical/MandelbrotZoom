@@ -17,3 +17,12 @@ Zooming into the Mandelbrot set is hard work for your GPU cores. The more iterat
 ### Okay, why can't I use my CPU to zoom into the Mandelbrot set?
 
 That would take ages - for each frame. Literally minutes. And there are hundreds of frames to be drawn, depending on the amount of iterations you set. This means that the zooming would take forever, perhaps even **days**. For each image, each pixel's color has to be separately determined by calculating its "Mandelbrot set value". Each "Mandelbrot set value" calculation takes the amount of iterations you set in the program. Because the GPU has much, much more cores than the CPU, this means that each pixel's color can be determined much faster using the GPU.
+
+## Planned Features
+
+I might or might not implement these, really depends on my motivation...
+
+- Saving the zoom as video using FFMPEG
+- Saving the zoom as images (of each frame)
+- Saving and loading of settings
+- Way to "fix" the GPU drivers from crashing via the UI
